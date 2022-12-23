@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>hello.</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("what should I call you?");
+    
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("Hi " + Name + ", Crushiecakes");
+    alert("Surpriseeee!"); 
+    alert("How was your day?");
+    alert("I know this is sudden but");
+    alert("I really really like you!");
+    alert("Palagi kang mag i-ingat okay?");
+    alert("Goodluck sa sa gagawin mo and take a nice rest mamaya");
+    alert("Pwede din naman ako maging pahinga mo");
+    alert("I hope you appreciate etong ginagawa ko");
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1> You look so beautiful don't you think?</h1>
+<img src="https://media.tenor.com/tWGelkzpdQUAAAAC/quby-love.gif" height="200" />
+<h1 style="#">What if crush back?</h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YES " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" NO " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
